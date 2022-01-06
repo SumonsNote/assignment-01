@@ -40,6 +40,7 @@ button {
     border: none;
     border-radius: 9px;
     cursor: pointer;
+    font-weight: 900;
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
@@ -82,6 +83,11 @@ p {
 .third-section {
     display: flex;
     padding: 0% 8%;
+    background-image: url(./images/shapes/shape-1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position-y: bottom;
 }
 .third-section-img, .ts-short-description {
     width: 50%;
@@ -104,6 +110,11 @@ p {
 .last-section {
     display: flex;
     padding: 0% 8%;
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+    background-size: 20%;
 }
 .last-section-story h2 {
     font-size: 30px;
