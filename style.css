@@ -1,6 +1,7 @@
 body {
     margin: 0;
 }
+/* Start the front home page */
 .first-section {
     display: flex;
 }
@@ -33,6 +34,9 @@ section {
 .short-description-image img {
     width: 80%;
 }
+/* End of the front home page */
+
+/* This is the all button design */
 button {
     padding: 10px 20px;
     color: white;
@@ -42,8 +46,10 @@ button {
     cursor: pointer;
     font-weight: 900;
 }
+/* End */
 p {
     font-family: Arial, Helvetica, sans-serif;
+    opacity: .7;
 }
 .head-title-border {
     display: flex;
@@ -143,7 +149,4 @@ footer .footer-number-color {
 }
 footer p {
     color: white;
-}
-p {
-    opacity: .7;
 }
