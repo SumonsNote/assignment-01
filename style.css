@@ -44,9 +44,15 @@ button {
 p {
     font-family: Arial, Helvetica, sans-serif;
 }
+.head-title-border {
+    display: flex;
+}
+.left-border {
+    border: 2px solid tomato;
+    border-radius: 10px;
+    margin: 40px 0px;
+}
 .head-title {
-    border-left: 4px solid tomato;
-    border-radius: 5px;
     padding-left: 10px;
 }
 .second-section-target, .second-section-target p, .service-section, .service-section p {
