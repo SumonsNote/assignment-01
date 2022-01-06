@@ -97,6 +97,9 @@ p {
     display: flex;
     padding: 0% 8%;
 }
+.last-section-story h2 {
+    font-size: 30px;
+}
 footer {
     text-align: center;
     background-color: #04000f;
