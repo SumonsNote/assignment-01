@@ -39,3 +39,25 @@ p {
     border-radius: 5px;
     padding-left: 10px;
 }
+.second-section-target {
+    display: flex;
+}
+.mission {
+    background-color: #d8eff2;
+}
+.vission {
+    background-color: #dedede;
+}
+.goals {
+    background-color: #f4f4f4;
+}
+.mission, .vission, .goals {
+    border-radius: 26px;
+    width: 31%;
+    padding-left: 25px;
+    font-size: 15px;
+    margin: 45px;
+}
+.second-section-target img {
+    width: 40%;
+}
