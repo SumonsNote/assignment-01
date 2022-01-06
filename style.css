@@ -49,26 +49,26 @@ p {
     border-radius: 5px;
     padding-left: 10px;
 }
-.second-section-target {
+.second-section-target, .service-section {
     display: flex;
 }
-.mission {
+.mission, .algorithm-deisgn {
     background-color: #d8eff2;
 }
-.vission {
+.vission, .problem-solving {
     background-color: #dedede;
 }
-.goals {
+.goals, .full-stack-development {
     background-color: #f4f4f4;
 }
-.mission, .vission, .goals {
+.mission, .vission, .goals, .algorithm-deisgn, .problem-solving, .full-stack-development {
     border-radius: 26px;
     width: 31%;
     padding-left: 25px;
     font-size: 15px;
     margin: 45px;
 }
-.second-section-target img {
+.second-section-target img, .algorithm-deisgn img, .problem-solving img, .full-stack-development img{
     width: 40%;
 }
 .third-section {
@@ -99,6 +99,16 @@ p {
 }
 .last-section-story h2 {
     font-size: 30px;
+}
+.algorithm-deisgn, .problem-solving, .full-stack-development {
+    text-align: center;
+}
+h2.service-title {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #35353b;
+    font-family: sans-serif;
 }
 footer {
     text-align: center;
