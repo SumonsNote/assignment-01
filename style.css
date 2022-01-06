@@ -9,7 +9,16 @@
     font-family: 'Titan One', cursive;
     font-size: 40px;
 }
+.second-section-title {
+    text-align: center;
+}
 .heading-title-02 {
+    color: orange;
+}
+.second-section-title {
+    font-size: 40px;
+}
+.second-section-title-number {
     color: orange;
 }
 .short-description-image img {
