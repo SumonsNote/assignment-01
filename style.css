@@ -49,8 +49,9 @@ p {
     border-radius: 5px;
     padding-left: 10px;
 }
-.second-section-target, .service-section {
+.second-section-target, .second-section-target p, .service-section, .service-section p {
     display: flex;
+    font-size: 14px;
 }
 .mission, .algorithm-deisgn {
     background-color: #d8eff2;
@@ -70,6 +71,7 @@ p {
 }
 .second-section-target img, .algorithm-deisgn img, .problem-solving img, .full-stack-development img{
     width: 40%;
+    padding-top: 15px;
 }
 .third-section {
     display: flex;
