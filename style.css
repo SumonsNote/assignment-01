@@ -1,5 +1,11 @@
+body {
+    margin: 0;
+}
 .first-section {
     display: flex;
+}
+section {
+    padding-bottom: 100px;
 }
 .short-description, .short-description-image {
     width: 50%;
@@ -17,6 +23,9 @@
 }
 .second-section-title {
     font-size: 40px;
+    color: #0d0119;
+    font-family: sans-serif;
+    font-weight: 900;
 }
 .second-section-title-number {
     color: orange;
@@ -30,6 +39,7 @@ button {
     background-color: tomato;
     border: none;
     border-radius: 9px;
+    cursor: pointer;
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
@@ -60,4 +70,48 @@ p {
 }
 .second-section-target img {
     width: 40%;
+}
+.third-section {
+    display: flex;
+    padding: 0% 8%;
+}
+.third-section-img, .ts-short-description {
+    width: 50%;
+    margin: 5%;
+}
+
+.third-section-img img {
+    width: 80%;
+}
+.third-section-title {
+    font-size: 30px;
+}
+.last-section-img img {
+    width: 80%;
+}
+.last-section-img, .last-section-story {
+    width: 50%;
+    margin: 5%;
+}
+.last-section {
+    display: flex;
+    padding: 0% 8%;
+}
+footer {
+    text-align: center;
+    background-color: #04000f;
+    padding: 30px;
+}
+footer h2 {
+    font-family: 'Titan One', cursive;
+    color: white;
+}
+footer .footer-number-color {
+    color: tomato;
+}
+footer p {
+    color: white;
+}
+p {
+    opacity: .7;
 }
